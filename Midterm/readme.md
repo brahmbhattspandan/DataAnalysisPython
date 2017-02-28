@@ -13,7 +13,7 @@
 **15 points per analysis**
 
 #### Instructions :
-- [Enron Scandal Summary](http://www.investopedia.com/updates/enron-scandal-summary/) - Link to Investopedia article to get a brief summary about the what the scandel was.
+- [Enron Scandal Summary](http://www.investopedia.com/updates/enron-scandal-summary/) - Link to Investopedia article to get a brief summary about the what the scandal was.
 - The enron data-set is available at [CMU Enron data 1.82 GB tgz file](https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz) . 
 - **`You do not need to upload this data in your repository`**.  TA will have their own local copy of the  data at `~/midterm/data/enron/maildir/*`. So use this relative path for storing your data.
 ```sh
@@ -33,7 +33,7 @@ $ curl -O https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz
 
 > Use NYT API to collect NYT data. Perform 3 analysis on the collected data.
 
-Link to NYT developer docs : `http://developer.nytimes.com/`
+Link to NYT developer docs : [NYT API Documentation](http://developer.nytimes.com/)
 
 
 | Code        | Points           | 
@@ -69,7 +69,7 @@ nyt_archive_key = os.get_env('nyt_archive_key')
 
 
 | Path        | Purpose           | 
-| ------------- |:-------------:| 
+| ------------- |-------------| 
 |`midterm/`       | folder to store all your midterm submission files | 
 | `midterm/data/*`      | Store all raw data      |   
 | `midterm/que[1-2]/ana_[1-3].ipynb`  | Notebook to store the code for analysis      |
